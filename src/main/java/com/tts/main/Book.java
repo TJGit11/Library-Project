@@ -8,8 +8,7 @@ public class Book {
 
     // Creates a new Book
     public Book(String bookTitulo) {
-        title = bookTitulo;
-        borrowed = false;
+        title = bookTitulo;;
     }
 
     // Marks the book as rented
@@ -24,7 +23,7 @@ public class Book {
 
     // Returns true if the book is rented, false otherwise
     public boolean isBorrowed() {
-        return borrowed = false;
+        return borrowed;
 
     }
 
